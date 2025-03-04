@@ -6,14 +6,14 @@
 
 A PyTorch implementation of Google's Deep Dream algorithm using VGG-16 for psychedelic image generation, featuring an interactive web interface.
 
-![Deep Dream Example](example.png) *(Replace with your example image)*
+![Deep Dream Example](example.png) 
 
 ## 🧠 Key Concepts
 
 ##### 🌌 What is Deep Dream?
 Deep Dream is a computer vision technique that amplifies patterns learned by neural networks, creating surreal, dream-like images by maximizing activation gradients.
 
-![Deep Dream Process](images/gradient_ascent.png) *(Add gradient ascent image)*
+![Deep Dream Process](gradient_ascent.png) 
 
 ##### 🚀 Why PyTorch?
 1. Dynamic Computation Graph: Flexible gradient manipulation
@@ -23,7 +23,7 @@ Deep Dream is a computer vision technique that amplifies patterns learned by neu
 ##### 🏛️ VGG-16 Architecture
 The 16-layer CNN from Oxford's Visual Geometry Group, known for its simplicity and effectiveness in feature extraction.
 
-![Deep Dream Process](images/vgg16.png) *(Add VGG16 image)*
+![Deep Dream Process](vgg16.jpg) 
 
 ##### ⬆️ Gradient Ascent
 Unlike gradient descent for loss minimization, we maximize layer activations through:
