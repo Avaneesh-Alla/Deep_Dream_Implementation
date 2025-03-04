@@ -48,6 +48,7 @@ for _ in range(steps):
 ```
 
 ## 🛠️ Project Structure
+
 ```plaintext
 deep-dream-pytorch/
 ├── app.py               # Streamlit web interface
@@ -58,6 +59,7 @@ deep-dream-pytorch/
 ```
 
 ## ⚙️ Installation
+
 ### Clone repository:
 ```bash
 git clone https://github.com/yourusername/deep-dream-pytorch.git
