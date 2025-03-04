@@ -6,7 +6,7 @@
 
 A PyTorch implementation of Google's Deep Dream algorithm using VGG-16 for psychedelic image generation, featuring an interactive web interface.
 
-![Deep Dream Example](images/example.png) *(Replace with your example image)*
+![Deep Dream Example](example.png) *(Replace with your example image)*
 
 ## 🧠 Key Concepts
 
