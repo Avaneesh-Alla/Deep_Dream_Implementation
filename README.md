@@ -49,18 +49,43 @@ deep-dream-pytorch/
 
 ## ⚙️ Installation
 
-##### Clone repository:
+##### 1️⃣ Clone repository:
 ```bash
 git clone https://github.com/yourusername/deep-dream-pytorch.git
 cd deep-dream-pytorch
 ```
 
-##### Install dependencies:
+##### 2️⃣ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
-##### Run Streamlit app:
+##### 3️⃣ Run Streamlit app:
 ```bash
 streamlit run main.py
 ```
+
+## 🎮 How It Works: Step-by-Step
+
+##### 1️⃣ Image Upload
+1. Upload any JPG/PNG image
+2. Adjust intensity (1-10) for effect strength
+
+##### 2️⃣ Processing Pipeline
+1. Preprocessing
+```plaintext
+Resize → Normalize → Tensor Conversion
+```
+2. Feature Extraction
+```python
+model = models.vgg16(weights=True).features[:23]  # First 23 layers
+```
+3. Gradient Ascent
+```plaintext
+20 optimization steps with **ADAM** optimizer
+```
+4. Postprocessing
+```plaintext
+Denormalize → Clamp → Convert to PIL Image
+```
+
+##### 3️⃣ Results Display
