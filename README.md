@@ -47,7 +47,7 @@ for _ in range(steps):
     optimizer.step()
 ```
 
-### 🛠️ Project Structure
+## 🛠️ Project Structure
 ```plaintext
 deep-dream-pytorch/
 ├── app.py               # Streamlit web interface
@@ -57,19 +57,19 @@ deep-dream-pytorch/
 └── mlruns/              # MLflow experiment tracking
 ```
 
-### ⚙️ Installation
-###### Clone repository:
+## ⚙️ Installation
+### Clone repository:
 ```bash
 git clone https://github.com/yourusername/deep-dream-pytorch.git
 cd deep-dream-pytorch
 ```
 
-###### Install dependencies:
+### Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-###### Run Streamlit app:
+### Run Streamlit app:
 ```bash
 streamlit run main.py
 ```
