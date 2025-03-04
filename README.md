@@ -10,15 +10,15 @@ A PyTorch implementation of Google's Deep Dream algorithm using VGG-16 for psych
 
 ## 🧠 Key Concepts
 
-### 🌌 What is Deep Dream?
+##### 🌌 What is Deep Dream?
 Deep Dream is a computer vision technique that amplifies patterns learned by neural networks, creating surreal, dream-like images by maximizing activation gradients.
 
 ![Deep Dream Process](images/dream_process.png) *(Add gradient ascent image)*
 
-### 🔍 Attention Models (Context)
+##### 🔍 Attention Models (Context)
 While this project uses CNNs, attention models (like those in Transformers) focus on relevant image regions. Though not used here, they share the philosophy of emphasizing important features.
 
-### 🏛️ VGG-16 Architecture
+##### 🏛️ VGG-16 Architecture
 The 16-layer CNN from Oxford's Visual Geometry Group, known for its simplicity and effectiveness in feature extraction.
 
 ```plaintext
@@ -27,8 +27,9 @@ Input -> 2x64 conv -> MaxPool -> 2x128 conv -> MaxPool ->
 3x256 conv -> MaxPool -> 3x512 conv -> MaxPool -> 3x512 conv -> MaxPool -> FC Layers
 ```
 
-### ⬆️ Gradient Ascent
+##### ⬆️ Gradient Ascent
 Unlike gradient descent for loss minimization, we maximize layer activations through:
+
 ```python
 for _ in range(steps):
     optimizer.zero_grad()
@@ -50,18 +51,18 @@ deep-dream-pytorch/
 
 ## ⚙️ Installation
 
-### Clone repository:
+##### Clone repository:
 ```bash
 git clone https://github.com/yourusername/deep-dream-pytorch.git
 cd deep-dream-pytorch
 ```
 
-### Install dependencies:
+##### Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Streamlit app:
+##### Run Streamlit app:
 ```bash
 streamlit run main.py
 ```
