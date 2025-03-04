@@ -15,8 +15,10 @@ Deep Dream is a computer vision technique that amplifies patterns learned by neu
 
 ![Deep Dream Process](images/dream_process.png) *(Add gradient ascent image)*
 
-##### 🔍 Attention Models (Context)
-While this project uses CNNs, attention models (like those in Transformers) focus on relevant image regions. Though not used here, they share the philosophy of emphasizing important features.
+##### 🚀 Why PyTorch?
+1. Dynamic Computation Graph: Flexible gradient manipulation
+2. Pretrained Models: Easy access to VGG-16
+3. GPU Acceleration: CUDA support for faster processing
 
 ##### 🏛️ VGG-16 Architecture
 The 16-layer CNN from Oxford's Visual Geometry Group, known for its simplicity and effectiveness in feature extraction.
