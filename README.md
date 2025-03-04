@@ -23,11 +23,7 @@ Deep Dream is a computer vision technique that amplifies patterns learned by neu
 ##### 🏛️ VGG-16 Architecture
 The 16-layer CNN from Oxford's Visual Geometry Group, known for its simplicity and effectiveness in feature extraction.
 
-```plaintext
-VGG-16 Architecture:
-Input -> 2x64 conv -> MaxPool -> 2x128 conv -> MaxPool -> 
-3x256 conv -> MaxPool -> 3x512 conv -> MaxPool -> 3x512 conv -> MaxPool -> FC Layers
-```
+![Deep Dream Process](images/dream_process.png) *(Add VGG16 image)*
 
 ##### ⬆️ Gradient Ascent
 Unlike gradient descent for loss minimization, we maximize layer activations through:
