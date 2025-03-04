@@ -8,16 +8,6 @@ A PyTorch implementation of Google's Deep Dream algorithm using VGG-16 for psych
 
 ![Deep Dream Example](images/dream_example.jpg) *(Replace with your example image)*
 
-## 📚 Table of Contents
-- [Key Concepts](#-key-concepts)
-- [Project Structure](#[-project-structure])
-- [Installation](#-installation)
-- [How It Works](#-how-it-works)
-- [Results](#-results)
-- [Acknowledgments](#-acknowledgments)
-
----
-
 ## 🧠 Key Concepts
 
 ### 🌌 What is Deep Dream?
